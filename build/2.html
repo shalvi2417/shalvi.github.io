@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shalvi Dmello | Explorer & Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Particle Background -->
+  <div id="particles-js"></div>
+
+  <!-- Navigation -->
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#my-world">My World</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="hero">
+    <div class="hero-content">
+      <img src="a (6).jpeg" alt="Shalvi Dmello" class="profile-pic" />
+      <h1>Hello, I’m <span>Shalvi Dmello</span></h1>
+      <h3>💻 18 y/o Engineering Student | Explorer | Tech Enthusiast 💡</h3>
+      <p class="tagline">Turning curiosity into creations.</p>
+    </div>
+  </header>
+  <style>
+    .heart {
+      position: fixed;
+      width: 10px;
+      height: 10px;
+      background: red;
+      transform: rotate(45deg);
+      top: 100vh;
+      animation: floatUp ease-in infinite;
+      z-index: 9999;
+    }
+  
+    .heart::before,
+    .heart::after {
+      content: "";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      background: red;
+      border-radius: 50%;
+    }
+  
+    .heart::before {
+      top: -5px;
+      left: 0;
+    }
+  
+    .heart::after {
+      left: -5px;
+      top: 0;
+    }
+  
+    @keyframes floatUp {
+      0% {
+        transform: rotate(45deg) translateY(0);
+        opacity: 1;
+      }
+      100% {
+        transform: rotate(45deg) translateY(-100vh);
+        opacity: 0;
+      }
+    }
+  </style>
+  
+  <!-- About -->
+  <section id="about">
+    <h2>🌷 About Me</h2>
+    <p>I’m Shalvi Dmello, a first-year engineering student passionate about tech, exploring new ideas, traveling, and capturing beautiful moments. I love learning new skills and building creative experiences that blend logic and design.</p>
+  </section>
+
+  <!-- Skills Flash Cards -->
+  <section id="skills">
+    <h2>💖 My Skills</h2>
+    <div class="flashcard-container">
+
+      <div class="flashcard">
+        <div class="front"><i class="fa-brands fa-html5"></i><h3>HTML</h3></div>
+        <div class="back">Building strong structure for beautiful websites.</div>
+      </div>
+
+      <div class="flashcard">
+        <div class="front"><i class="fa-brands fa-css3-alt"></i><h3>CSS</h3></div>
+        <div class="back">Styling with colors, fonts, and animations ✨</div>
+      </div>
+
+      <div class="flashcard">
+        <div class="front"><i class="fa-brands fa-js-square"></i><h3>JavaScript</h3></div>
+        <div class="back">Adding interactive logic to user experiences.</div>
+      </div>
+
+      <div class="flashcard">
+        <div class="front"><i class="fa-brands fa-figma"></i><h3>Design</h3></div>
+        <div class="back">Figma & Canva to create clean, joyful UIs.</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>🚀 My Projects</h2>
+    <div class="project-card">
+      <h3>✨ Personal Portfolio</h3>
+      <p>A responsive website that reflects my journey, passions, and skills using HTML, CSS & JavaScript.</p>
+    </div>
+    <div class="project-card">
+      <h3>📅 women safety device and app</h3>
+      <p>A simple tracker sos device for women safety with innovative idea of using volunteers!</p>
+    </div>
+    <div class="project-card">
+        <h3>📅 python quiz app</h3>
+        <p>An app for python project the has quiz and info about indian animals that are endangered!</p>
+      </div>
+      <div class="gallery">
+        <img src="e1 (1).jpeg" />
+        <img src="e1 (2).jpeg" />
+        <img src="e1 (3).jpeg" /> 
+      </div>
+  </section>
+
+  <!-- My World -->
+  <section id="my-world">
+    <h2>📸 My World</h2>
+    <p>Here’s my lens into life, friends, food & fun!</p>
+    <div class="gallery">
+      
+      <img src="a (1).jpeg" />
+      <img src="a (2).jpeg" />
+      <img src="a (3).jpeg" />
+      <img src="a (4).jpeg" />
+      <img src="a (5).jpeg" />
+      <img src="s (5).jpeg" />
+      <img src="s (9).jpeg" />
+      
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>💌 Contact Me</h2>
+    <p>📞 7219152070</p>
+    <p>📧 <a href="mailto:shalvidmello@gmail.com">shalvidmello@gmail.com</a></p>
+    <p>📸 <a href="https://www.instagram.com/shalvi0724" target="_blank">@shalvi0724</a></p>
+  </section>
+  <section id="contact">
+    <h2>💌 Contact Me</h2>
+    <p>If you'd like to reach out, feel free to drop a message below!</p>
+  
+    <form action="mailto:shalvidmello@gmail.com" method="POST" enctype="text/plain">
+      <label for="name">🙋‍♀️ Your Name:</label><br />
+      <input type="text" id="name" name="name" required placeholder="Enter your name"><br><br>
+  
+      <label for="email">📧 Your Email:</label><br />
+      <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
+  
+      <label for="message">💬 Your Message:</label><br />
+      <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea><br><br>
+  
+      <button type="submit">Send Message</button>
+    </form>
+  
+    <p>Or reach me directly at 📞 7219152070 | 📧 <a href="mailto:shalvidmello@gmail.com">shalvidmello@gmail.com</a></p>
+    <p>📸 <a href="https://www.instagram.com/shalvi0724" target="_blank">@shalvi0724</a></p>
+  </section>
+  
+
+  <!-- Footer -->
+  <footer>
+    <p>✨ Made with 💖 by Shalvi Dmello | 2025 ✨</p>
+  </footer>
+
+ <!-- Particle.js Script -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS("particles-js", {
+    particles: {
+      number: { value: 80 },
+      color: { value: "#120321" }, // 💖 Pink neurons
+      shape: { type: "circle" },
+      opacity: { value: 0.4 },
+      size: { value: 3 },
+      line_linked: {
+        enable: true,
+        distance: 150,
+        color: "#120321",
+        opacity: 0.4,
+        width: 1
+      },
+      move: {
+        enable: true,
+        speed: 2,
+        direction: "none",
+        random: true,
+        out_mode: "bounce"
+      }
+    },
+    interactivity: {
+      events: {
+        onhover: { enable: true, mode: "grab" },
+        onclick: { enable: true, mode: "push" }
+      },
+      modes: {
+        grab: { distance: 140, line_linked: { opacity: 0.6 } },
+        push: { particles_nb: 4 }
+      }
+    },
+    retina_detect: true
+  });
+</script>
+<script>
+  const createHeart = () => {
+    const heart = document.createElement("div");
+    heart.className = "heart";
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.animationDuration = 3 + Math.random() * 2 + "s";
+    document.body.appendChild(heart);
+    setTimeout(() => heart.remove(), 5000);
+  };
+
+  setInterval(createHeart, 300);
+</script>
+
+</body>
+</html>

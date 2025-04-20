@@ -1,0 +1,224 @@
+/* Reset */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+    background-color: #fff0f5;
+    color: #2c2c54;
+  }
+  
+  /* Particle Background */
+  #particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+  }
+  
+  /* Nav */
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: #e9cddc;
+    padding: 15px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .main-nav a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Header */
+  .hero-content {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(145deg, #c5156a, #ffc2e2);
+  }
+  .profile-pic {
+    border-radius: 50%;
+    width: 140px;
+    border: 5px solid #ff85b3;
+  }
+  h1 span {
+    color: #d63384;
+  }
+  .tagline {
+    font-style: italic;
+    color: #555;
+  }
+  
+  /* Sections */
+  section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  section h2 {
+    text-align: center;
+    color: #d63384;
+  }
+  /* ✨ Global text color fix */
+body {
+    color: #f382a7; /* soft baby pink */
+    background-color: #2c003e; /* deep pink-purple background */
+  }
+  
+  h1, h2, h3, h4, h5 {
+    color: #ffb6c1; /* light pink headings */
+  }
+  
+  p, a, li {
+    color: #98f05d; /* soft readable text */
+  }
+  
+  a:hover {
+    color: #fff; /* white on hover for contrast */
+  }
+  
+  /* Optional: improve all text contrast site-wide */
+  section {
+    background-color: rgba(255, 255, 255, 0.03); /* subtle background tint */
+    padding: 40px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+  
+  #about, #skills, #projects, #my-world, #contact {
+    color: #f05d8e;
+  }
+  form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #1e1e2f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 77, 148, 0.2);
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #f9f9f9;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #ff4d94;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #e04386;
+  }
+  
+  /* Improve nav visibility */
+  nav.main-nav a {
+    color: #ff85b3;
+    font-weight: bold;
+  }
+  nav.main-nav a:hover {
+    color: #fff;
+  }
+  body {
+    background-color: #0f0f1a; /* deep navy blue */
+    color: #f1f1f1; /* light grey text for high contrast */
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+  }
+    
+  /* Skills - Flashcards */
+  .flashcard-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .flashcard {
+    width: 160px;
+    height: 200px;
+    perspective: 1000px;
+  }
+  .flashcard .front, .flashcard .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background: #c2a1f8;
+    color: #a5175e;
+    transition: transform 0.6s ease;
+  }
+  .flashcard .front {
+    transform: rotateY(0deg);
+  }
+  .flashcard .back {
+    transform: rotateY(180deg);
+  }
+  .flashcard:hover .front {
+    transform: rotateY(180deg);
+  }
+  .flashcard:hover .back {
+    transform: rotateY(360deg);
+  }
+  .flashcard i {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Projects */
+  .project-card {
+    background: #a83131;
+    border-left: 5px solid #d8b5c3;
+    margin: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Gallery */
+  .gallery {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .gallery img {
+    width: 180px;
+    border-radius: 10px;
+  }
+  #particles-js {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    background: linear-gradient(135deg, #f893f0, #070707); /* Subtle dark pink vibe */
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 30px;
+    background: #0e0b14;
+    color: #d63384;
+    font-weight: bold;
+  }
+  
